@@ -6,8 +6,8 @@ We calculate the evaluation metrics for the collaborative diffusion model. The e
 - Clip score
 - Mask Accuracy
 
-We construct test set using 27000-29000 sample from the CelebA dataset, and generate one image for each sample. After that,  
-we randomly sample 50 images for 20 times to calculate FID score and Clip score. We also calculate the mask accuracy for the 2000 images in the testset. The result shows like:
+We construct test set using 27000-29000 sample from the CelebA dataset, and generate one image for each sample. 
+After that, we randomly sample 50 images for 20 times to calculate FID score and Clip score. We also calculate the mask accuracy for the 2000 images in the testset. The result shows like:
 
 || FID score | Clip score | Mask Accuracy |
 |-|-----------|------------|---------------|
